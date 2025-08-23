@@ -1,0 +1,82 @@
+body {
+  background: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.weather-app {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 80px rgba(6, 4, 10, 0.349);
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+.search-input {
+  background-color: rgba(17, 215, 241, 0.815);
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 15px;
+}
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: rgba(17, 215, 241, 0.815);
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 15px;
+}
+main {
+  padding: 30px 0;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-temperature {
+  font-size: 48px;
+}
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+.city-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.city-details strong {
+  color: rgb(47, 144, 255);
+}
+.current-temp-icon {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.current-temp-value {
+  font-size: 50px;
+  font-weight: bold;
+}
+.current-temp-unit {
+  font-size: 28px;
+  position: relative;
+  top: -28px;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+
+  color: rgb(47, 144, 255);
+}

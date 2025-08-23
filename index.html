@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+ <link rel="stylesheet" href="styles.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form id="search-form">
+          <input type="search" placeholder="Enter a city" required class="search-input" id="search-input"/>
+          <input type="submit" value="search" class="search-button"/>
+        </form>
+      </header>
+    
+    <main>
+      <div class="current-weather">
+        <div>
+          <h1 class="current-city" id="current-city">Johannesburg</h1>
+          <p class="city-details">
+            <span id="current-date"></span>, sunny <br />
+            Humidity: <strong>27%</strong>, Wind: <strong>2km/h</strong>
+          </p>
+        </div>
+        <div class="current-temperature">
+          <span class="current-temp-icon">☀️</span>
+          <span class="current-temp-value" id="current-temperature"> 26</span>
+          <span class="current-temp-unit">℃</span>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <p>This project was coded by Tinashe Senzeko</p>
+    </footer>
+  </body>
+   <script src="index.js"></script>
+</html>
